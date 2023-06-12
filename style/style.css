@@ -1,0 +1,68 @@
+body {
+    background-color: var(--cor-de-fundo, #43413A);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--cor-de-card, #56544d);
+    margin-top: 24px;
+    margin-bottom: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.informacoes-perfil p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+
+}
+
+.informacoes-perfil p span {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--cor-de-texto, #CDBFAD);
+}
+
+.informacoes-perfil span {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--cor-de-texto, #CDBFAD);
+}
+
+hr {
+    margin: 10px;
+}
+
+.info-rede-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-rede-social li {
+    margin: 30px;
+}
+
+.fa-linkedin {
+    font-size: 50px;
+}
+
+.fa-github {
+    font-size: 50px;
+}
+
+.fa-instagram {
+    font-size: 50px;
+}
